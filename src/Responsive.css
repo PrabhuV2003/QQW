@@ -1,0 +1,284 @@
+/* NAVBAR START */
+
+@media (max-width: 1280px) {
+    .NavbarContainer .middle {
+        gap: 70px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .NavbarContainer .middle {
+        gap: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .NavbarContainer .left {
+        width: 300px;
+    }
+    .NavbarContainer .left a {
+        display: block;
+        margin-left: 20px;
+    }
+    .NavbarContainer .middle {
+        display: none;
+    }
+    .NavbarContainer .right {
+        width: 20%;
+    }
+    .NavbarContainer .right a {
+        display: none;
+    }
+    .humburger {
+        display: flex;
+    }
+}
+
+@media (min-width: 768px) {
+    .smNav {
+        display: none;
+    }
+}
+
+/* NAVBAR END */
+
+/* HERO SECTION START */
+
+@media (max-width: 1024px) {
+    .heroSectionContainer .heroContent {
+        left: 50px;
+    }
+    .heroSectionContainer .heroContent h1 {
+        font-size: 50px;
+    }
+    .heroSectionContainer .heroContent button {
+        width: 130px;
+        height: 60px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .heroSectionContainer .heroContent {
+        left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .heroSectionContainer .heroContent h1 {
+        width: 100%;
+        font-size: 40px;
+    }
+}
+
+/* HERO SECTION END */
+
+/* WHAT WE DO START */
+
+@media (max-width: 1280px) {
+    .WhatWeDoContainer .WhatWeDoContent .parent {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .WhatWeDoContainer .WhatWeDoContent {
+        width: 98%;
+    }
+    .WhatWeDoContainer .WhatWeDoContent .parent {
+        gap: 15px;
+    }
+    .WhatWeDoContainer .WhatWeDoContent .parent .div1 h1 {
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+    .WhatWeDoContainer .WhatWeDoContent .parent .div1 p {
+        width: 100%;
+        line-height: 1.7;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 768px) {
+    .WhatWeDoContainer {
+        height: 3000px;
+    }
+    .WhatWeDoContainer .WhatWeDoContent .parent {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(22, 1fr);
+    }
+    .WhatWeDoContainer .WhatWeDoContent .parent .div1 {
+        grid-column: span 5 / span 5;
+        grid-row: span 2 / span 2; 
+    }
+    .WhatWeDoContainer .WhatWeDoContent .parent .div2 {
+        grid-column: span 5 / span 5;
+        grid-row: span 3 / span 3;
+        grid-row-start: 3;
+    }
+    .WhatWeDoContainer .WhatWeDoContent .parent .div3 {
+        grid-column: span 5 / span 5;
+        grid-row: span 3 / span 3;
+        grid-row-start: 6;
+    }
+
+    .WhatWeDoContainer .WhatWeDoContent .parent .div4 {
+        grid-column: span 5 / span 5;
+        grid-row: span 3 / span 3;
+        grid-row-start: 9;
+    }
+
+    .WhatWeDoContainer .WhatWeDoContent .parent .div5 {
+        grid-column: span 5 / span 5;
+        grid-row: span 3 / span 3;
+        grid-row-start: 12;
+    }
+
+    .WhatWeDoContainer .WhatWeDoContent .parent .div6 {
+        grid-column: span 5 / span 5;
+        grid-row: span 3 / span 3;
+        grid-row-start: 15;
+    }
+
+    .WhatWeDoContainer .WhatWeDoContent .parent .div7 {
+        grid-column: span 5 / span 5;
+        grid-row: span 3 / span 3;
+        grid-row-start: 18;
+    }
+
+    .WhatWeDoContainer .WhatWeDoContent .parent .div8 {
+        grid-column: span 5 / span 5;
+        grid-row: span 2 / span 2;
+        grid-row-start: 21;
+    }
+    .WhatWeDoContainer .whatWeDoDisplay {
+        width: 600px;
+    }
+}
+
+@media (max-width: 640px) {
+    .WhatWeDoContainer .WhatWeDoContent {
+        height: 95%;
+    }
+    .WhatWeDoContainer .WhatWeDoContent .parent .div1 h1 {
+        font-size: 50px;
+    }
+    .WhatWeDoContainer .WhatWeDoContent .parent .div1 p {
+        letter-spacing: 0;
+    }
+    .WhatWeDoContainer .whatWeDoDisplay {
+        width: 500px;
+        bottom: -100px;
+        right: -160px;
+    }
+}
+
+/* WHAT WE DO END */
+
+/* TESTIMONIAL START */
+
+@media (max-width: 1536px) {
+    .testimonialSlider .cards {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .testimonialSlider .cards {
+        width: 350px;
+    }
+    .testimonialContainer .cube {
+        width: 250px;
+    }
+    .testimonialContainer .cube.cube4 {
+        bottom: 50px;
+    }
+    .testimonialContainer .cube.cube3 {
+        left: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .testimonialContainer .testimonialHead {
+        font-size: 50px;
+    }
+    .testimonialSlider .cards {
+        width: 90%;
+    }
+    .testimonialContainer .cube {
+        width: 200px;
+    }
+}
+
+@media (max-width: 640px) {
+    .testimonialContainer .testimonialHead {
+        font-size: 35px;
+    }
+    .customPrev,
+    .customNext {
+        font-size: 20px;
+        margin-top: 5px !important;
+    }
+    .cardContent .cardDesc {
+        font-size: 16px;
+    }
+}
+
+/* TESTIMONIAL END */
+
+/* CTA START */
+
+@media (max-width: 1280px) {
+    .ctaContent {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .ctaContent .leftSide p {
+        font-size: 60px;
+    }
+    .ctaContent .rightSide a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ctaContent {
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+    .ctaContent {
+        width: 90%;
+    }
+    .ctaContent .leftSide p {
+        width: 100%;
+        font-size: 50px;
+    }
+    .ctaContent .leftSide button {
+        font-size: 16px;
+        width: 150px;
+        height: 50px;
+    }
+    .ctaContent .rightSide {
+        margin-left: 70px;
+    }
+    .ctaContent .rightSide a {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+    .ctaContent .rightSide .ctaContactContainer::before {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 640px) {
+    .ctaContent .leftSide p {
+        font-size: 40px;
+    }
+    .ctaContent .rightSide a {
+        font-size: 14px;
+    }
+}
+/* CTA END */
