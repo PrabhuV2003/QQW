@@ -14,7 +14,7 @@ const Home = () => {
       <div ref={aboutUsRef}>
         <WhatWeDo />
       </div>
-      {/* <AboutUsSection /> */}
+      <AboutUsSection />
       <Testimonial />
       <CTA />
     </div>

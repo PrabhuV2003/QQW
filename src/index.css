@@ -181,7 +181,6 @@ a {
   width: 0%;
   height: 600px;
   background-color: var(--secondary-color);
-  /* transform: translateX(100%); */
   opacity: 0;
   transition: .5s all;
   

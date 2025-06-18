@@ -326,3 +326,40 @@
 }
 
 /* SERVICES END */
+
+/* ABOUT US SECTION START */
+
+@media (max-width: 1280px) {
+    .aboutUsSectionCard button {
+        font-size: 18px;
+    }
+    .aboutUsSectionCard p {
+        width: 80%;
+    }
+    .worldGlobe {
+        top: 0px;
+        width: 600px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .aboutUsSectionContainer .aboutUsSectionContent {
+        width: 80%;
+    }
+    .aboutUsSectionCard h1 {
+        font-size: 55px;
+    }
+    .aboutUsSectionCard p {
+        font-size: 18px;
+    }
+    .aboutUsSectionCard button {
+        width: 50%;
+    }
+    .worldGlobe {
+        width: 500px;
+        top: 100px;
+        right: -200px;
+    }
+}
+
+/* ABOUT US SECTION END */
