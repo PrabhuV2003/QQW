@@ -10,7 +10,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow-x: hidden !important;
 }
 
 ::-webkit-scrollbar {
@@ -179,16 +178,17 @@ a {
   left: 0;
   z-index: 999;
 
-  width: 100%;
+  width: 0%;
   height: 600px;
   background-color: var(--secondary-color);
-  transform: translateX(100%);
+  /* transform: translateX(100%); */
   opacity: 0;
   transition: .5s all;
+  
 }
 
 .smNav.open {
-  transform: translateX(0);
+  width: 100%;
   opacity: 1;
 }
 
