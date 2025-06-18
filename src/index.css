@@ -1461,6 +1461,8 @@ a {
   bottom: 0;
   right: -50px;
 
+  display: none;
+
   width: 400px;
 }
 

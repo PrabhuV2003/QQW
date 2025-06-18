@@ -485,8 +485,11 @@
     }
     .footer-top-right {
         position: relative;
-        
+
         height: 600px;
+    }
+    .smFooter {
+        display: block;
     }
 }
 
