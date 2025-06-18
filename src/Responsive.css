@@ -494,3 +494,72 @@
 }
 
 /* FOOTER END */
+
+/* TEAMS START */
+
+@media (max-width: 1024px) {
+    .team-card {
+        height: 400px;
+        width: 100%;
+    }
+    .team-image-container {
+        margin: 10px;
+    }
+    .team-description {
+        width: 100%;
+    }
+    .team-title {
+        font-size: 60px;
+    }
+    .team-subtitle {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .team-card {
+        width: 100% !important;
+        height: 100%;
+        flex-direction: column !important;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    .team-image-container {
+        width: 90%;
+        margin: 0;
+    }
+    .team-members {
+        gap: 0px;
+        border-bottom: 1px solid gray;
+    }
+    .team-info {
+        width: 100%;
+    }
+    .team-name {
+        text-align: start;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .team-description {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .right-image {
+        margin-right: 0px;
+    }
+    .team-title {
+        font-size: 50px;
+    }
+    .team-subtitle {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 640px) {
+    .team-name {
+        font-size: 25px;
+    }
+}
+
+/* TEAMS END */
