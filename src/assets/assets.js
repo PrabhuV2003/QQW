@@ -12,6 +12,8 @@ import WhatWeDoCardImg from './WhatWeDoCardImg.png'
 
 import EnquiryFormBG from './EnquiryForm_Bg.png'
 
+import footer from './footer.png'
+
 export const assets = {
     ctabg,
     cta_overlay,
@@ -23,5 +25,6 @@ export const assets = {
     logo,
     WhatWeDoCardImg,
     whatwedo_Display,
-    EnquiryFormBG
+    EnquiryFormBG,
+    footer
 }

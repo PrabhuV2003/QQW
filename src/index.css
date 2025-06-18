@@ -4,6 +4,7 @@
 :root {
   --primary-color: #179AA0;
   --secondary-color: #094E77;
+  --primary-font:'KyivTypeSans';
 }
 
 * {
@@ -296,7 +297,7 @@ a {
 .WhatWeDoContainer .WhatWeDoContent .parent .div1 h1 {
   font-size: 70px;
   font-weight: 400;
-  font-family: 'KyivTypeSans';
+  font-family: var(--primary-font);
   margin-bottom: 20px;
 }
 
@@ -504,7 +505,7 @@ a {
 
 .popupTitle h1 {
   font-size: 25px;
-  font-family: 'KyivTypeSans';
+  font-family: var(--primary-font);
 }
 
 .topPara {
@@ -620,7 +621,7 @@ a {
 }
 
 .heroSectionContainer .heroContent h1 {
-  font-family: 'KyivTypeSans';
+  font-family: var(--primary-font);
   font-size: 60px;
   letter-spacing: 1px;
   width: 80%;
@@ -712,7 +713,7 @@ a {
 .aboutUsSectionCard h1 {
   font-size: 65px;
   line-height: 2;
-  font-family: 'KyivTypeSans';
+  font-family: var(--primary-font);
   font-weight: 400;
   color: var(--secondary-color);
 }
@@ -800,7 +801,7 @@ a {
 .testimonialContainer .testimonialHead {
   text-align: center;
   font-size: 70px;
-  font-family: 'KyivTypeSans';
+  font-family: var(--primary-font);
   color: white;
   line-height: 1;
   letter-spacing: 3px;
@@ -1019,7 +1020,7 @@ a {
 }
 
 .ctaContent .leftSide p {
-  font-family: 'KyivTypeSans';
+  font-family: var(--primary-font);
   font-size: 80px;
   width: 80%;
   color: white;
@@ -1092,7 +1093,7 @@ a {
   text-align: center;
   font-size: 70px;
   color: white;
-  font-family: 'KyivTypeSans';
+  font-family: var(--primary-font);
   font-weight: 500;
 }
 
@@ -1244,7 +1245,7 @@ a {
   width: 100%;
   text-align: center;
   color: white;
-  font-family: 'KyivTypeSans';
+  font-family: var(--primary-font);
   font-weight: 400;
   margin-bottom: 20px;
 }
@@ -1289,3 +1290,178 @@ a {
 }
 
 /* ENGUIRY FORM END */
+
+/* FOOTER START */
+
+.footer-container{
+  background: linear-gradient(180deg, #179AA0 0%, #03293C 100%);
+}
+
+.footer-main {
+  width: 80%;
+  margin: auto;
+  padding: 3rem 0;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-section1-logo {
+  width: 100%;
+  height:100px;
+  padding-top: 1rem;
+}
+
+.right-section1-logo img {
+  width: 250px;
+}
+
+.footer-top-right {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  gap:1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  overflow: hidden;
+}
+
+.top-right-section1 {
+  display: flex;
+  flex-direction: column;
+  gap:3rem;
+  width: 50%;
+}
+
+.right-section1-quicklinks {
+  display:flex;
+  gap:5rem
+}
+
+.section1-quicklinks-1 h1 {
+  text-transform: capitalize;
+  font-size: 20px;
+  padding: 1rem 0;
+  color: var(--secondary-color);
+}
+
+.section1-quicklinks-1 p {
+  text-transform: capitalize;
+  font-size: 16px;
+  padding: 2px 0;
+  color: var(--secondary-color);
+}
+
+.section1-quicklinks-1 a {
+  text-decoration: none;
+}
+
+.top-right-section2 {
+  width: 50%;
+}
+
+.top-right-section2 h1 {
+  font-size: 35px;
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+}
+
+.top-right-section2 img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.footer-top-left {
+  width: 30%;
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem 1rem;
+}
+
+.top-left-content h1 {
+  font-size: 40px;
+  color: var(--primary-color);
+  position: relative;
+  text-align: center;
+  padding-bottom: 2rem;
+  text-transform: capitalize;
+  font-family: var(--primary-font);
+}
+
+.top-left-content h1::before {
+  content: "";
+  position: absolute;
+  width:60px;
+  height: 5px;
+  background: var(--secondary-color);
+  left:50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  bottom: 25px;
+}
+
+.top-left-content h1::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: var(--secondary-color);
+  left: 38%;
+  transform: translateX(-35%);
+  border-radius: 10px;
+  bottom: 25px;
+}
+
+.top-left-content p {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0; 
+  line-height: 25px;
+  gap:3px;
+  color: var(--secondary-color);
+}
+
+.top-left-content a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.top-left-content-media {  
+  display: flex;
+  gap:1.5rem;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.media-icons {
+  cursor:pointer;
+  color: var(--secondary-color);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.footer-bottom p {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.smFooter {
+  position: absolute;
+  bottom: 0;
+  right: -50px;
+
+  width: 400px;
+}
+
+/* FOOTER END */

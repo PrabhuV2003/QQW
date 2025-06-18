@@ -409,3 +409,85 @@
 }
 
 /* ABOUT US SECTION END */
+
+/* FOOTER START */
+
+@media (max-width: 1280px) {
+    .footer-top-left {
+        width: 40%;
+    }
+    .right-section1-logo img {
+        width: 200px;
+    }
+    .top-right-section2 h1 {
+        font-size: 30px;
+    }
+    .footer-main {
+        width: 95%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer-top-left {
+        width: 35%;
+    }
+    .footer-top-right {
+        width: 60%;
+    }
+    .right-section1-quicklinks {
+        gap: 25px;
+    }
+    .top-right-section2 img {
+        width: 200px;
+        height: 200px;
+    }
+    .top-left-content h1 {
+        font-size: 30px;
+    }
+    .top-right-section2 h1 {
+        font-size: 25px;
+    }
+    .right-section1-logo img {
+        width: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-top {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-top-right, 
+    .footer-top-left
+    {
+        width: 100%;
+    }
+    .footer-bottom p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 640px) {
+    .top-right-section1 {
+        width: 100%;
+    }
+    .top-right-section2 {
+        display: none;
+    }
+    .right-section1-quicklinks {
+        justify-content: space-around;
+    }
+    .right-section1-logo {
+        text-align: center;
+    }
+    .right-section1-logo img {
+        width: 250px;
+    }
+    .footer-top-right {
+        position: relative;
+        
+        height: 600px;
+    }
+}
+
+/* FOOTER END */
