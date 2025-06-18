@@ -282,3 +282,47 @@
     }
 }
 /* CTA END */
+
+/* SERVICES START */
+
+@media (max-width: 1280px) {
+    .ServiesContainer .services {
+        width: 95%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .ServiesContainer {
+        padding: 50px 10px;
+    }
+    .ServiesContainer h1 {
+        font-size: 60px;
+    }
+    .ServiesContainer .services {
+        width: 100%;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ServiesContainer h1 {
+        font-size: 50px;
+    }
+    .ServiesContainer .services {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .servicesCard .serviceTitle h1 {
+        font-size: 25px;
+    }
+    .servicesCard .serviceTitle p {
+        width: 95%;
+    }
+    .servicesCard .serviceTitle button {
+        font-size: 14px;
+    }
+}
+
+/* SERVICES END */

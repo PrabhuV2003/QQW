@@ -30,7 +30,7 @@ const Services = () => {
       <Banner img={assets.heroBg} />
 
       <div className='ServiesContainer'>
-        <h1>What We Do</h1>
+        <h1>Services</h1>
 
         <div className='services'>
           {ServicesData.map((item, index) => (
