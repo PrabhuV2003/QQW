@@ -63,24 +63,6 @@ const About = () => {
             </div>
           </div>
         </div>
-        {/* <div className="about-section3-main">
-          <div className="about-section3">
-            <div className="about-section3-content">
-              <p>
-                The team leverages extensive market knowledge and industry
-                expertise to guide clients in making informed decisions, aiming
-                to enhance their financial well-being.
-              </p>
-              <p>
-                The commitment to transparency, ethical practices, and
-                continuous monitoring of market trends distinguishes the Company
-                as a trusted partner in the realm of financial and investment
-                advisory services.
-              </p>
-            </div>
-          </div>
-        </div> */}
-
         <div className="aboutOrbitContainer">
           <div className="orbit1">
             <div className="orbitCircle orbitCircle1"></div>

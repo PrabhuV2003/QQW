@@ -1756,4 +1756,201 @@ a {
 
 /* ABOUT END */
 
+/* CONTACT US START */
+
+.contact-section {
+    background-color: #03293C;
+    color: white;
+    padding: 60px 20px;
+    padding-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.contact-title {
+    font-size: 70px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-left {
+    flex: 1 1 300px;
+    max-width: 450px;
+}
+
+.contact-left input,
+.contact-left select,
+.contact-left textarea 
+{
+  width: 100%;
+  height: 60px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 4px solid white;
+  border-radius: 999px;
+  outline: none;
+  color: white;
+  margin: 10px 0;
+}
+
+.contact-left input::placeholder {
+  color: white;
+}
+
+.contact-left select option {
+  color: black;
+}
+
+.contact-left textarea {
+  max-width: 100%;
+  min-width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.contact-image-box {
+    border-radius: 15px;
+    position: relative;
+}
+
+.agent-img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.contact-right {
+    flex: 1 1 300px;
+    max-width: 450px;
+    text-align: left;
+    position: relative;
+}
+
+/* .info-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+} */
+ 
+.info-item a {
+   color: white;
+   text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.info-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    color: #12F3D8;
+    background: radial-gradient(circle at 100% 100%, #031d2c 0, #031d2c 3px, transparent 3px) 0% 0%/4px 4px no-repeat,
+        radial-gradient(circle at 0 100%, #031d2c 0, #031d2c 3px, transparent 3px) 100% 0%/4px 4px no-repeat,
+        radial-gradient(circle at 100% 0, #031d2c 0, #031d2c 3px, transparent 3px) 0% 100%/4px 4px no-repeat,
+        radial-gradient(circle at 0 0, #031d2c 0, #031d2c 3px, transparent 3px) 100% 100%/4px 4px no-repeat,
+        linear-gradient(#031d2c, #031d2c) 50% 50%/calc(100% - 2px) calc(100% - 8px) no-repeat,
+        linear-gradient(#031d2c, #031d2c) 50% 50%/calc(100% - 8px) calc(100% - 2px) no-repeat,
+        conic-gradient(from 346deg, #031d2c 0%, #ffffff 61%);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 7px;
+    font-size: 10px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.address {
+    width: 100%;
+    margin: 0;
+    line-height: 1.6;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: .8px;
+    /* text-align: center; */
+}
+
+.underline {
+    width: 70%;
+    height: 1px;
+    background-color: #0A8D7D;
+    margin: 20px 0;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-family: KyivType Sans;
+}
+
+.social-icons {
+    margin: 20px 0px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    color: #12F3D8;
+    background: radial-gradient(circle at 100% 100%, #031d2c 0, #031d2c 3px, transparent 3px) 0% 0%/4px 4px no-repeat,
+        radial-gradient(circle at 0 100%, #031d2c 0, #031d2c 3px, transparent 3px) 100% 0%/4px 4px no-repeat,
+        radial-gradient(circle at 100% 0, #031d2c 0, #031d2c 3px, transparent 3px) 0% 100%/4px 4px no-repeat,
+        radial-gradient(circle at 0 0, #031d2c 0, #031d2c 3px, transparent 3px) 100% 100%/4px 4px no-repeat,
+        linear-gradient(#031d2c, #031d2c) 50% 50%/calc(100% - 2px) calc(100% - 8px) no-repeat,
+        linear-gradient(#031d2c, #031d2c) 50% 50%/calc(100% - 8px) calc(100% - 2px) no-repeat,
+        conic-gradient(from 346deg, #031d2c 0%, #ffffff 61%);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 10px 6px 10px;
+    font-size: 25px;
+    font-weight: 200 !important;
+    transition: 0.3s;
+    margin: 0px 15px;
+}
+
+/* .social-icons a:hover{
+    transform: scale(2);
+} */
+
+.contact-vectors .location-icon {
+    position: absolute;
+    width: 130px;
+    top: -135px;
+    left: 20%;
+}
+
+.contact-vectors .message-icon {
+    position: absolute;
+    right: -10px;
+    top: 70px;
+    width: 130px;
+}
+
+.contact-vectors .send-icon {
+    position: absolute;
+    bottom: -65px;
+    width: 130px;
+}
+
+.contact-map {
+    height: 600px;
+}
+
+/* CONTACT US END */
+
 

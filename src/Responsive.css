@@ -671,3 +671,54 @@
 }
 
 /* ABOUT END */
+
+/* CONTACT US START */
+
+@media (max-width: 890px) {
+    .contact-vectors .location-icon {
+        width: 100px;
+        top: -115px;
+        left: 20%;
+    }
+    .contact-vectors .message-icon {
+        right: 10px;
+        top: 120px;
+        width: 100px;
+    }
+    .contact-vectors .send-icon {
+        bottom: -70px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .info-item {
+        justify-content: start;
+        text-align: center;
+    }
+    .info-icon {
+        margin-top: 0;
+    }
+    .social-icons a {
+        margin: 0 10px;
+    }
+    .contact-title {
+        font-size: 60px;
+        margin-bottom: 50px;
+    }
+    .address {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 640px) {
+    .contact-title {
+        font-size: 50px;
+    }
+}
+
+/* CONTACT US END */

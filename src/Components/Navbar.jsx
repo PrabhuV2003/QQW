@@ -62,7 +62,7 @@ const Navbar = () => {
             </div>
         </div>
         <div className='right'>
-            <NavLink to='/contact'>
+            <NavLink to='/contact-us'>
                 <IoIosContact />
                 <p>CONTACT</p>
             </NavLink>
@@ -113,6 +113,15 @@ const Navbar = () => {
                 <div>
                     <NavLink to='/teams'>
                         <p>TEAMS</p>
+                        <div className='navActive'>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </NavLink>
+                </div>
+                <div>
+                    <NavLink to='/contact-us'>
+                        <p>CONTACT US</p>
                         <div className='navActive'>
                             <span></span>
                             <span></span>
