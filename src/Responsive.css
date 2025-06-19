@@ -522,7 +522,7 @@
         height: 100%;
         flex-direction: column !important;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         padding: 0;
     }
     .team-image-container {
@@ -563,3 +563,111 @@
 }
 
 /* TEAMS END */
+
+/* ABOUT START */
+
+@media (max-width: 1280px) {
+    .about-section1,
+    .about-section2 
+    {
+        width: 90%;
+    }
+    .about-section1-content-r p {
+        width: 100%;
+    }
+    .about-section2-content-r p {
+        width: 90%;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content-l-main-img {
+        width: 320px;
+        height: 320px;
+    }
+    .about-section1-content-r p {
+        font-size: 18px;
+    }
+    .about-section1-head h1 {
+        font-size: 60px;
+    }
+    .about-section2 {
+        width: 95%;
+        gap: 20px;
+    }
+    .about-section2-content-r,
+    .about-section2-content-l 
+    {
+        width: 50%;
+    }
+    .orbit1,
+    .orbit2
+    {
+        width: 90%;
+        height: 90%;
+    }
+    .orbit2 {
+        transform: translate(-50%, -50%) rotate(30deg);
+    }
+    .orbitContent {
+        width: 80%;
+    }
+    .orbitContent p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-l-main-img {
+        width: 90%;
+        height: 320px;
+    }
+    .about-section1-content {
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
+    .aboutOverlay {
+        width: 90%;
+        height: 320px;
+    }
+    .about-section1-head h1 {
+        font-size: 50px;
+    }
+    .about-section2 {
+        flex-direction: column-reverse;
+    }
+    .about-section2-content-r,
+    .about-section2-content-l 
+    {
+        width: 100%;
+    }
+    .about-section2-content-r {
+        height: 400px;
+    }
+    .orbitCircle {
+        width: 20px;
+        height: 20px;
+        border-radius: 999px;
+        background-color: white;
+
+        position: absolute;
+    }
+    .orbitContent p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 640px) {
+    .about-section2-content-r p {
+        font-size: 16px;
+    }
+    .orbit2 {
+        transform: translate(-50%, -50%) rotate(10deg);
+    }
+    .orbitContent p {
+        font-size: 16px;
+    }
+}
+
+/* ABOUT END */

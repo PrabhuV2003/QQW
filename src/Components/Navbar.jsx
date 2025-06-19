@@ -34,7 +34,7 @@ const Navbar = () => {
                 </NavLink>
             </div>
             <div>
-                <NavLink to='/about'>
+                <NavLink to='/about-us'>
                     <p>ABOUT</p>
                     <div className='navActive'>
                         <span></span>
@@ -93,7 +93,7 @@ const Navbar = () => {
                     </NavLink>
                 </div>
                 <div>
-                    <NavLink to='/about'>
+                    <NavLink to='/about-us'>
                         <p>ABOUT</p>
                         <div className='navActive'>
                             <span></span>
