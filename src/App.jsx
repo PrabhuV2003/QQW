@@ -7,11 +7,13 @@ import Navbar from './Components/Navbar.jsx';
 import Footer from './Components/Footer.jsx';
 import About from './Pages/About.jsx';
 import Contact from './Pages/Contact.jsx';
+import ScrollToTop from './Components/ScrollToTop.jsx';
 
 function App() {
 
   return (
     <>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
