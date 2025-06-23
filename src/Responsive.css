@@ -702,9 +702,12 @@
     }
     .info-icon {
         margin-top: 0;
+        width: 40px;
+        height: 40px;
     }
     .social-icons a {
         margin: 0 10px;
+        font-size: 20px;
     }
     .contact-title {
         font-size: 60px;
@@ -722,3 +725,59 @@
 }
 
 /* CONTACT US END */
+
+/* ENQUIRY FORM START */
+
+@media (max-width: 640px) {
+    .enquiryForm {
+        width: 90%;
+    }
+    .eqform input, .eqform select, .eqform textarea  {
+        font-size: 16px;
+    }
+    .eqform button {
+        font-size: 14px;
+    }
+}
+
+/* ENQUIRY FORM END */
+
+/* WHAT WE DO POPUP START */
+
+@media (max-width: 1024px) {
+    .popupOverlay .popupContent  {
+        width: 90%;
+    }
+}
+
+@media (max-width: 640px) {
+    .popupTitle h1 {
+        font-size: 20px;
+    }
+    .popupContent .points h2 {
+        font-size: 16px;
+    }
+    .pointsContent.open p {
+        font-size: 14px;
+    } 
+    .popupContent .points.open {
+        padding: 5px;
+    }
+    .popupContent .points div {
+        width: 35px;
+        height: 35px;
+    }
+    .popupclose {
+        width: 25px;
+        height: 25px;
+    }
+    .popupTitle .round {
+        width: 20px;
+        height: 20px;
+    }
+    .popupTitle {
+        gap: 5px;
+    }
+}
+
+/* WHAT WE DO POPUP END */

@@ -12,7 +12,7 @@ const WhatWeDoCards = ({ title, bgImg, description, onClick }) => {
             <FaArrowRight />
           </div>
 
-          <p>{description.slice(0, 100) + '...'}</p>
+          {/* <p>{description.slice(0, 100) + '...'}</p> */}
         </div>
     </div>
   )
