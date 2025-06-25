@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../Components/Banner";
 import { assets } from "../assets/assets";
+import { Helmet } from "react-helmet";
 
 const teamMembers = [
   {
@@ -26,6 +27,11 @@ const teamMembers = [
 const Teams = () => {
   return (
     <>
+
+    <Helmet>
+      <title>Quantum Quest Wealth - Teams</title>
+    </Helmet>
+
     <Banner img={assets.heroBg} />
     <section className="team-section">
       <h1 className="team-title">Our Teams</h1>

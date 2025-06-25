@@ -3,10 +3,16 @@ import Testimonial from "../Components/Testimonial";
 import CTA from "../Components/CTA";
 import { assets } from "../assets/assets";
 import Banner from "../Components/Banner";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
     <>
+
+    <Helmet>
+      <title>Quantum Quest Wealth - About Us</title>
+    </Helmet>
+
     <Banner img={assets.heroBg} />
 
     <div className="about-container">

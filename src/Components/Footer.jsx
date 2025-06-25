@@ -26,16 +26,20 @@ const Footer = () => {
               <div className="right-section1-quicklinks">
                 <div className="section1-quicklinks-1">
                   <h1>company</h1>
-                  <p>home</p>
-                  <Link to="/about-us">
-                    <p>about us</p>
+                  <Link to='/'>
+                    <p>Home</p>
                   </Link>
-                  <p>service</p>
+                  <Link to="/about-us">
+                    <p>About us</p>
+                  </Link>
+                  <Link to='/services'>
+                    <p>Service</p>
+                  </Link>
                   <Link to="/team">
-                    <p>teams</p>
+                    <p>Teams</p>
                   </Link>
                   <Link to="/contact-us">
-                    <p>contact us</p>
+                    <p>Contact us</p>
                   </Link>
                 </div>
                 <div className="section1-quicklinks-1">

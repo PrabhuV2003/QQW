@@ -9,6 +9,7 @@ import {
 } from "react-icons/pi";
 import Banner from "../Components/Banner";
 import { assets } from "../assets/assets";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -77,6 +78,11 @@ const Contact = () => {
 
   return (
     <>
+
+    <Helmet>
+      <title>Quantum Quest Wealth - Contact Us</title>
+    </Helmet>
+
       <Banner img={assets.heroBg} />
 
       <section className="contact-section">

@@ -5,6 +5,7 @@ import { ServicesData } from '../mockData/Services'
 import { FaArrowRight } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import EnquiryForm from "../Components/EnquiryForm";
+import { Helmet } from 'react-helmet';
 
 const Services = () => {
 
@@ -26,6 +27,12 @@ const Services = () => {
   };
 
   return (
+    <>
+    
+    <Helmet>
+      <title>Quantum Quest Wealth - Services</title>
+    </Helmet>
+
     <div>
       <Banner img={assets.heroBg} />
 
@@ -100,6 +107,7 @@ const Services = () => {
       {enquiryForm &&  <EnquiryForm onClose={() => setEnquiryForm(false)} />}
 
     </div>
+    </>
   )
 }
 
