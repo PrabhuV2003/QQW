@@ -83,7 +83,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className='smNavList'>
-                <div>
+                <div onClick={closeNav}>
                     <NavLink to='/'>
                         <p>HOME</p>
                         <div className='navActive'>
@@ -92,7 +92,7 @@ const Navbar = () => {
                         </div>
                     </NavLink>
                 </div>
-                <div>
+                <div onClick={closeNav}>
                     <NavLink to='/about-us'>
                         <p>ABOUT</p>
                         <div className='navActive'>
@@ -101,7 +101,7 @@ const Navbar = () => {
                         </div>
                     </NavLink>
                 </div>
-                <div>
+                <div onClick={closeNav}>
                     <NavLink to='/services'>
                         <p>SERVICE</p>
                         <div className='navActive'>
@@ -110,7 +110,7 @@ const Navbar = () => {
                         </div>
                     </NavLink>
                 </div>
-                <div>
+                <div onClick={closeNav}>
                     <NavLink to='/teams'>
                         <p>TEAMS</p>
                         <div className='navActive'>
@@ -119,7 +119,7 @@ const Navbar = () => {
                         </div>
                     </NavLink>
                 </div>
-                <div>
+                <div onClick={closeNav}>
                     <NavLink to='/contact-us'>
                         <p>CONTACT US</p>
                         <div className='navActive'>
